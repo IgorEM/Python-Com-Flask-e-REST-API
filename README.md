@@ -14,3 +14,5 @@ Conferindo alteração com o GET no dev/0:
 ![img_3.png](img_3.png)
 Adicionando novo dev com POST:
 ![img_5.png](img_5.png)
+Listagem de todos os devs com GET no /dev/:
+![img_6.png](img_6.png)
