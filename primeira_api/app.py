@@ -29,6 +29,7 @@ if __name__ == '__main__':
 #teste console
 """ 
 METODO GET
+import requests
 
 >>> response = requests.get('http://127.0.0.1:5000/soma')
 >>> response
@@ -51,6 +52,17 @@ METODO GET
 42
 
 METODO POST
+import json
+
+>>> response = requests.post('http://127.0.0.1:5000/soma', json={"valores":[20,20,10]})
+>>> print(response.json())
+{'soma': 50}
+
+>>> dados = response.json()
+>>> dados
+{'soma': 50}
+>>> dados['soma']
+50
 
 
 """
