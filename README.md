@@ -16,3 +16,4 @@ Adicionando novo dev com POST:
 ![img_5.png](img_5.png)
 Listagem de todos os devs com GET no /dev/:
 ![img_6.png](img_6.png)
+![img_7.png](img_7.png)
