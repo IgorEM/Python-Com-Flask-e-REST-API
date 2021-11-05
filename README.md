@@ -12,3 +12,5 @@ alterando o dev/0 com o PUT:
 ![img_2.png](img_2.png)
 Conferindo alteração com o GET no dev/0:
 ![img_3.png](img_3.png)
+Adicionando novo dev com POST:
+![img_5.png](img_5.png)
