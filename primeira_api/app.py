@@ -63,8 +63,6 @@ import json
 {'soma': 50}
 >>> dados['soma']
 50
-
-
 """
 
 
