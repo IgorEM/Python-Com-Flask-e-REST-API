@@ -31,10 +31,14 @@ def desenvolvedor(id):
         desenvolvedores.pop(id)
         return jsonify({'status': 'sucesso', 'mensagem': 'registro excluido'})
 
-@app.route('/dev')
+@app.route('/dev/', methods=['POST','GET'])
 def  lista_desenvolvedores():
     if request.method == 'POST':
-        dados 
+        dados = json.loads(request.data)
+        ultima_posicao = len(desenvolvedores)
+        dados['id'] = ultima_posicao
+        desenvolvedores.append(dados)
+        return jsonify(desenvolvedores[ultima_posicao])
 
 if __name__ == '__main__':
     app.run()
