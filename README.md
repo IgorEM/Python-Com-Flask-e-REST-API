@@ -1,7 +1,7 @@
 # Python-Com-Flask-e-REST-API
 Framework Flask e como Desenvolver REST API através dela
 
-###API soma:
+### API soma:
 POST no /soma passando valores no body:
 ![img_4.png](img_4.png)
 
